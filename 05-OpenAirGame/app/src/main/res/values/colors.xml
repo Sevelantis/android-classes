@@ -3,7 +3,7 @@
 
     <color name="beige_100">#faf0e6</color>
     <color name="beige_200">#fff0db</color>
-    <color name="beige_300">#eed9c4</color>
+    <color name="beige_background">#eed9c4</color>
     <color name="beige_400">#e4d5b7</color>
     <color name="beige_500">#d9b99b</color>
 

@@ -7,8 +7,18 @@
 
     <fragment
         android:id="@+id/loginFragment"
-        android:name="pt.ua.openairgame.login.LoginFragment"
+        android:name="pt.ua.openairgame.auth.LoginFragment"
         android:label="fragment_login"
-        tools:layout="@layout/fragment_login" />
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_menuFragment"
+            app:destination="@id/menuFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="pt.ua.openairgame.menu.MenuFragment"
+        android:label="fragment_menu"
+        tools:layout="@layout/fragment_menu" />
 
 </navigation>
